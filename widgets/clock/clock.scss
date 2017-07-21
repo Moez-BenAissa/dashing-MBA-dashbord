@@ -1,0 +1,35 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #FFF;
+
+$title-color:       #152338;
+// ----------------------------------------------------------------------------
+// Widget-clock styles
+// ----------------------------------------------------------------------------
+.widget-clock {
+
+  background-color: $background-color;
+  background: url("ah-logo.png");
+
+}
+
+.title {
+  color: $title-color;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.content{
+color: #0593D6;
+}
+
+.hour{
+  color: #0593D6;
+  font-weight: bold;
+}
+
+.date{
+  color: gold;
+}

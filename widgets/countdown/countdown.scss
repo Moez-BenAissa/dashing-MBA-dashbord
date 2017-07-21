@@ -1,0 +1,41 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #04DCFE;
+$title-color:       #152338;
+// ----------------------------------------------------------------------------
+// Widget-clock styles
+// ----------------------------------------------------------------------------
+.widget-countdown {
+
+  background-color: $background-color;
+
+  .title, h2 {
+    color: $title-color;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  h1 { font-size: 2em;}
+
+  .countdown-time {
+    margin-top: 10px;
+    color: #C70039;
+    font-weight: bold;
+  }
+
+  .before-more-info {
+    font-size: 15px;
+    position: relative;
+    color: #C70039;
+    font-weight: bold;
+    top: 20px;
+    left: 0;
+    right: 0;
+  }
+
+  .more-info{
+    color: gold;
+    font-weight: bold;
+  }
+}

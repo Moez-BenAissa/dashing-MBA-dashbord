@@ -1,0 +1,60 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #fff;
+$value-color:       #fff;
+
+$title-color:       #152338;
+$moreinfo-color:    gold;
+
+// ----------------------------------------------------------------------------
+// Widget-number styles
+// ----------------------------------------------------------------------------
+.widget-number {
+
+  background-color: $background-color;
+
+  .title {
+    color: $title-color;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .value {
+    color: $value-color;
+  }
+
+  .change-rate {
+    font-weight: 500;
+    font-size: 30px;
+    color: $value-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+    font-weight: bold;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}
+
+.green-screen{
+  background-color: #80F33E;
+  height: 340px;
+  width: 370px;
+}
+
+.orange-screen{
+  background-color: #F9A106;
+  height: 340px;
+  width: 370px;
+}
+
+.red-screen{
+  background-color: #FB0804;
+  height: 340px;
+  width: 370px;
+}
