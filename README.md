@@ -5,7 +5,7 @@ This a list of widget examples in one global dashboard.
 
 # Installation
 
-- clone the progect
+- clone the project
 - cd /Users/YOURUSERNAME/../mba-dashing-dashbord
 - sudo gem install bundler
 - sudo gem install dashing
