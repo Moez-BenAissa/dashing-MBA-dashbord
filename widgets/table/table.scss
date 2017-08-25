@@ -8,7 +8,7 @@ $title-color:       #152338;
 $label-color:       rgba(255, 255, 255, 0.7);
 $moreinfo-color:    glod;
 
-$th-background-color:       #222;
+$th-background-color:       #4b4b4b;
 $tr-odd-background-color:   #12a0c5;
 $tr-even-background-color:  #47bbb3;
 $tr-hover-background-color: #858585;
@@ -20,10 +20,9 @@ $tr-hover-background-color: #858585;
 
   background-color: $background-color;
 
-  .brand{
-    background: url("ah-logo.jpg");
-    height: 100px;
-
+  .marquee{
+     color: red;
+     font-size: 20px;
   }
   .title {
     color: $title-color;
@@ -32,6 +31,7 @@ $tr-hover-background-color: #858585;
   }
 
   .value {
+    font-size: 12px;
     margin-left: 12px;
     font-weight: 600;
     color: $value-color;
@@ -54,7 +54,7 @@ $tr-hover-background-color: #858585;
   // table { border: 1px solid black; }
 
   // Set the background color for the header row
-  th { background-color: $th-background-color; }
+  th { background-color: $th-background-color; font-size: 14px;}
 
   // If you want a stripped table set the color for both odd and even rows
   tr:nth-child(odd) { background-color: $tr-odd-background-color; }
@@ -64,6 +64,7 @@ $tr-hover-background-color: #858585;
   tr:hover { background-color: $tr-hover-background-color; }
 
   td {
+    font-size: 12px;
     margin: 0 15px;
     text-align: center;
     color: $label-color;

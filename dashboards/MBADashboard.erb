@@ -1,0 +1,75 @@
+<script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+  Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":2},{"col":3,"row":1,"size_x":2,"size_y":2},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1}]')
+
+});
+</script>
+
+<% content_for :title do %>MBA Dashing<% end %>
+ <!-- style="background-color: #FFF" -->
+<div class="gridster">
+  <ul>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="a_timeline" data-view="Timelinevertical" data-title="Calendar release 17.07"></div>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="2" data-sizey="2">
+      <div data-id="tasksTable" data-view="Table" data-title="Release Tasks 17.07" data-moreinfo="100% of subjects are delivred"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Countdown" data-title="Remaining days" data-end="20-Sep-2017 19:00:00"></div>
+        <i class="fa fa-random icon-background"></i>
+    </li>
+    <li data-switcher-interval="5000" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="RootFrame" data-view="Mainframe" data-title= "Release 17.07" data-content="From Slack!!"></div>
+      <i class="fa fa-clock-o icon-background"></i>
+      <div data-id="convergence" data-view="Graph" data-title="Bugs convergence" style="background-color:#47bbb3;"></div>
+      <div data-id="NRStatus" data-view="Meter" data-title="Status of NR" data-min="0" data-max="100" data-value="0" data-moreinfo="Not started yet"></div>
+      <div data-id="CriticalBugs" data-view="Number" data-title="Critical Bugs"  style="background-color:#47bbb3;"></div>
+    </li>
+
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" >
+
+      <i class="fa fa-clock-o icon-background"></i>
+    </li> -->
+    <!-- <li data-row="2" data-col="4" data-sizex="4" data-sizey="2">
+         <div data-id="spread" data-view="Spread" data-title="Spreadsheet Document" id="spreadWidget_content"></div>
+    </li> -->
+
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" >
+
+    </li> -->
+
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Image" data-image="/ah-logo.jpg"></div>
+    </li> -->
+
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="CentralMessage" data-view="Text" data-title="Release 17.06" data-text="Tests of evolutions are finished. NR will start tomorrow" data-moreinfo="Pbs : Env are very slow!" data-updated-at=""></div>
+    </li> -->
+
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="synergy" data-view="Meter" data-moreinfo="In sync with my neighbour!" data-title="Synergy" data-min="0" data-max="100"></div>
+    </li> -->
+    <!--
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="2">
+      <div data-id="Tasks" data-view="List" data-unordered="false" data-title="Release Subjects" data-moreinfo="# 30% of subjects are delevered!"></div>
+    </li> -->
+
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="convergence" data-view="Graph" data-title="Convergence" style="background-color:#47bbb3;"></div>
+    </li> -->
+
+    <!-- <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+     <div data-id="git" data-view="Git" data-unordered="true" data-title="Git status"></div>
+   </li> -->
+
+   <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+    <div data-id="twitter_mentions" data-view="Comments" style="background-color:#ff9618;" data-moreinfo="Tweets tagged with #todayilearned"></div>
+    <i class="fa fa-twitter icon-background"></i>
+  </li> -->
+  </ul>
+</div>

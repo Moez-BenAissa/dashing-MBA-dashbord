@@ -1,6 +1,6 @@
 ---
 valuation: |+
-  data: {"current":25,"last":32,"id":"valuation","updatedAt":1500659302}
+  data: {"current":39,"last":21,"id":"valuation","updatedAt":1503675054}
 
 karma: |+
   data: {"current":22229,"last":11908,"id":"karma","updatedAt":1500475420}
@@ -9,7 +9,7 @@ synergy: |+
   data: {"value":94,"id":"synergy","updatedAt":1500543650}
 
 convergence: |+
-  data: {"points":[{"x":147,"y":16},{"x":148,"y":47},{"x":149,"y":10},{"x":150,"y":44},{"x":151,"y":7},{"x":152,"y":7},{"x":153,"y":15},{"x":154,"y":34},{"x":155,"y":36},{"x":156,"y":3}],"id":"convergence","updatedAt":1500659304}
+  data: {"points":[{"x":319,"y":7},{"x":320,"y":13},{"x":321,"y":8},{"x":322,"y":47},{"x":323,"y":32},{"x":324,"y":8},{"x":325,"y":15},{"x":326,"y":40},{"x":327,"y":7},{"x":328,"y":48}],"id":"convergence","updatedAt":1503675060}
 
 buzzwords: |+
   data: {"items":{"items":[{"task":"ROOM-6605","team":"API","subject":"Adagio Long Séjour","CDPMOE":"Unkown","status":"Livré","DeliveryDate":"10-Juin"},{"task":"73885","team":"SitesM","subject":"[LoL] MAJ Mentions legales Footer","CDPMOE":"Cyrille Ecrabet","status":"Livré","DeliveryDate":"10-Juin"},{"task":"5280","team":"ROOM","subject":"LH-wording sur les distances de POI","CDPMOE":"Tovo A.","status":"Livré","DeliveryDate":"10-Juin"},{"task":"73845","team":"SitesM","subject":"[LINK] FRONT : pages d'erreur","CDPMOE":"Sandrine Bernard","status":"A livrer","DeliveryDate":"12-Juil"},{"task":"73889","team":"ROOM","subject":"service à la carte - Lot 2","CDPMOE":"Fatima S.","status":"A livrer","DeliveryDate":"15-Juil"}]},"id":"buzzwords","updatedAt":1500554771}
@@ -24,14 +24,20 @@ NRStatus: |+
   data: {"value":70,"id":"NRStatus","updatedAt":1500584107}
 
 Tasks: |+
-  data: {"items":{"items":[{"task":"ROOM-6605","team":"API","subject":"Adagio Long Séjour","CDPMOE":"Unkown","status":"Livré","DeliveryDate":"10-Juin"},{"task":"73885","team":"SitesM","subject":"[LoL] MAJ Mentions legales Footer","CDPMOE":"Cyrille Ecrabet","status":"Livré","DeliveryDate":"10-Juin"},{"task":"5280","team":"ROOM","subject":"LH-wording sur les distances de POI","CDPMOE":"Tovo A.","status":"Livré","DeliveryDate":"10-Juin"},{"task":"73845","team":"SitesM","subject":"[LINK] FRONT : pages d'erreur","CDPMOE":"Sandrine Bernard","status":"A livrer","DeliveryDate":"12-Juil"},{"task":"73889","team":"ROOM","subject":"service à la carte - Lot 2","CDPMOE":"Fatima S.","status":"A livrer","DeliveryDate":"15-Juil"}]},"id":"Tasks","updatedAt":1500659304}
+  data: {"items":{"items":[{"task":"ROOM-6605","team":"API","subject":"Adagio Long Séjour","CDPMOE":"Unkown","status":"Livré","DeliveryDate":"10-Juin"},{"task":"73885","team":"SitesM","subject":"[LoL] MAJ Mentions legales Footer","CDPMOE":"Cyrille Ecrabet","status":"Livré","DeliveryDate":"10-Juin"},{"task":"5280","team":"ROOM","subject":"LH-wording sur les distances de POI","CDPMOE":"Tovo A.","status":"Livré","DeliveryDate":"10-Juin"},{"task":"73845","team":"SitesM","subject":"[LINK] FRONT : pages d'erreur","CDPMOE":"Sandrine Bernard","status":"A livrer","DeliveryDate":"12-Juil"},{"task":"73889","team":"ROOM","subject":"service à la carte - Lot 2","CDPMOE":"Fatima S.","status":"A livrer","DeliveryDate":"15-Juil"}]},"id":"Tasks","updatedAt":1503675060}
 
 tasksTable: |+
-  data: {"hrows":[{"cols":[{"value":"task"},{"value":"team"},{"value":"subject"},{"value":"CDPMOE"},{"value":"DeliveryDate"},{"value":"status"}]}],"rows":[{"cols":[{"value":"ROOM-6605"},{"value":"API"},{"value":"Adagio Long Séjour"},{"value":"Unkown"},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"73885"},{"value":"SitesM"},{"value":"[LoL] MAJ Mentions legales Footer"},{"value":"Cyrille Ecrabet"},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"5280"},{"value":"ROOM"},{"value":"LH-wording sur les distances de POI"},{"value":"Tovo A."},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"73845"},{"value":"SitesM"},{"value":"[LINK] FRONT : pages d'erreur"},{"value":"Sandrine Bernard"},{"value":"10-Jul"},{"value":"A livrer"}]},{"cols":[{"value":"73889"},{"value":"ROOM"},{"value":"service à la carte - Lot 2"},{"value":"Fatima S."},{"value":"10-Jul"},{"value":"A livrer"}]},{"cols":[{"value":"ROOM-6605"},{"value":"API"},{"value":"Adagio Long Séjour"},{"value":"Unkown"},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"73885"},{"value":"SitesM"},{"value":"[LoL] MAJ Mentions legales Footer"},{"value":"Cyrille Ecrabet"},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"5280"},{"value":"ROOM"},{"value":"LH-wording sur les distances de POI"},{"value":"Tovo A."},{"value":"10-Jul"},{"value":"Livré"}]}],"id":"tasksTable","updatedAt":1500659302}
+  data: {"hrows":[{"cols":[{"value":"task"},{"value":"team"},{"value":"subject"},{"value":"CDPMOE"},{"value":"DeliveryDate"},{"value":"status"}]}],"rows":[{"cols":[{"value":"ROOM-6605"},{"value":"API"},{"value":"Adagio Long Séjour"},{"value":"Unkown"},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"73885"},{"value":"SitesM"},{"value":"[LoL] MAJ Mentions legales Footer"},{"value":"Cyrille Ecrabet"},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"5280"},{"value":"ROOM"},{"value":"LH-wording sur les distances de POI"},{"value":"Tovo A."},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"73845"},{"value":"SitesM"},{"value":"[LINK] FRONT : pages d'erreur"},{"value":"Sandrine Bernard"},{"value":"10-Jul"},{"value":"A livrer"}]},{"cols":[{"value":"73889"},{"value":"ROOM"},{"value":"service à la carte - Lot 2"},{"value":"Fatima S."},{"value":"10-Jul"},{"value":"A livrer"}]},{"cols":[{"value":"ROOM-6605"},{"value":"API"},{"value":"Adagio Long Séjour"},{"value":"Unkown"},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"73885"},{"value":"SitesM"},{"value":"[LoL] MAJ Mentions legales Footer"},{"value":"Cyrille Ecrabet"},{"value":"10-Jul"},{"value":"Livré"}]},{"cols":[{"value":"5280"},{"value":"ROOM"},{"value":"LH-wording sur les distances de POI"},{"value":"Tovo A."},{"value":"10-Jul"},{"value":"Livré"}]}],"id":"tasksTable","updatedAt":1503675054}
 
 slack-integration: |+
-  data: {"errormsg":"No API-Key specified!","id":"slack-integration","updatedAt":1500659282}
+  data: {"errormsg":"No API-Key specified!","id":"slack-integration","updatedAt":1503675054}
 
 git: |+
-  data: {"errormsg":"No API-Key specified!","id":"git","updatedAt":1500659282}
+  data: {"errormsg":"No API-Key specified!","id":"git","updatedAt":1503675054}
+
+a_timeline: |+
+  data: {"events":[{"name":"Prepare release","date":"Aug 20, 2017","background":"Wite","opacity":0.5},{"name":"Start Release","date":"Aug 26, 2017","background":"lightblue"},{"name":"Release End","date":"Sept 10, 2017","background":"red"},{"name":"Preprod Tests","date":"Sept 12, 2017","background":"Wite"},{"name":"GO / NOGO!","date":"Sept 15, 2017","background":"pink"},{"name":"Mise en Production!","date":"Sept 20, 2017","background":"Green"},{"name":"TODAY","date":"Fri 25 Aug 2017","background":"gold"}],"id":"a_timeline","updatedAt":1503675060}
+
+RootFrame: |+
+  data: {"items":[{"text":"Version is ready and waiting deployment in prod!"}],"id":"RootFrame","updatedAt":1503675044}
 

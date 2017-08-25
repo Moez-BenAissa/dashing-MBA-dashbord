@@ -1,0 +1,39 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #FFF;
+
+$title-color:       #152338;
+// ----------------------------------------------------------------------------
+// Widget-mainframe styles
+// ----------------------------------------------------------------------------
+.widget-mainframe {
+
+  background-color: $background-color;
+  background: url("ah-logo.png");
+
+}
+
+.title {
+  color: $title-color;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.label{
+  color: #0593D6;
+}
+
+.content{
+color: #00839B;
+}
+
+.hour{
+  color: #009B86;
+  font-weight: bold;
+}
+
+.date{
+  color: gold;
+}

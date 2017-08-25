@@ -1,0 +1,25 @@
+# COLOR GUIDE
+# holiday = lightgreen
+# deadline = red
+# release = pink
+# misc = white
+
+events:
+  - name: "Prepare release"
+    date: "Aug 20, 2017"
+    background: "Wite"
+  - name: "Start Release"
+    date: "Aug 26, 2017"
+    background: "lightblue"
+  - name: "Release End"
+    date: "Sept 10, 2017"
+    background: "red"
+  - name: "Preprod Tests"
+    date: "Sept 12, 2017"
+    background: "Wite"
+  - name: "GO / NOGO!"
+    date: "Sept 15, 2017"
+    background: "pink"
+  - name: "Mise en Production!"
+    date: "Sept 20, 2017"
+    background: "Green"
