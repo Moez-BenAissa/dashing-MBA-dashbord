@@ -4,7 +4,7 @@ buzzwords = ['Paradigm shift', 'Leverage', 'Pivoting', 'Turn-key', 'Streamlinine
 buzzword_counts = Hash.new({ value: 0 })
 
 
-  file = File.read(File.expand_path("../tasks.json", __FILE__))
+  file = File.read(File.expand_path("../../assets/data/tasks.json", __FILE__))
   data = JSON.parse(file)
 
   items = data;

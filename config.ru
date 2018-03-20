@@ -13,6 +13,7 @@ configure do
     'view' => 'All'
   }
 
+<<<<<<< HEAD
   set :spread, {
     'client_id' => '678415161385-20hrvs95hplufi9pd05dhmu8bl416p8f.apps.googleusercontent.com',
     'client_secret' =>'wupcz1oIIy0RBtLmOjOvvhaz',
@@ -22,6 +23,10 @@ configure do
 
   set :slack, {
     'token'  => 'xoxp-52237316115-52292056049-217319962692-5bf486eae32863c931e26e06328bb6d4',
+=======
+  set :slack, {
+    'token'  => 'xoxp-52237316115-52292056049-217737651862-d97600fdcdf2f40e3519622cfd546ec6',
+>>>>>>> synchronise the locla repo
     'channel-alert' => 'C6DFBADB7',
     'channel-status' => 'C6E8857V4'
   }

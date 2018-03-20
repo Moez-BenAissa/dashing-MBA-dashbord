@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 valuation: |+
   data: {"current":39,"last":21,"id":"valuation","updatedAt":1503675054}
 
@@ -41,3 +42,47 @@ a_timeline: |+
 RootFrame: |+
   data: {"items":[{"text":"Version is ready and waiting deployment in prod!"}],"id":"RootFrame","updatedAt":1503675044}
 
+=======
+valuation: "data: {\"current\":11,\"last\":54,\"id\":\"valuation\",\"updatedAt\":1518575181}\n\n"
+karma: "data: {\"current\":22229,\"last\":11908,\"id\":\"karma\",\"updatedAt\":1500475420}\n\n"
+synergy: "data: {\"value\":94,\"id\":\"synergy\",\"updatedAt\":1500543650}\n\n"
+convergence: "data: {\"points\":[{\"x\":18633,\"y\":12},{\"x\":18634,\"y\":19},{\"x\":18635,\"y\":29},{\"x\":18636,\"y\":25},{\"x\":18637,\"y\":15},{\"x\":18638,\"y\":13},{\"x\":18639,\"y\":44},{\"x\":18640,\"y\":25},{\"x\":18641,\"y\":23},{\"x\":18642,\"y\":13}],\"id\":\"convergence\",\"updatedAt\":1518575183}\n\n"
+buzzwords: "data: {\"items\":{\"items\":[{\"task\":\"ROOM-6605\",\"team\":\"API\",\"subject\":\"Adagio
+  Long Séjour\",\"CDPMOE\":\"Unkown\",\"status\":\"Livré\",\"DeliveryDate\":\"10-Juin\"},{\"task\":\"73885\",\"team\":\"SitesM\",\"subject\":\"[LoL]
+  MAJ Mentions legales Footer\",\"CDPMOE\":\"Cyrille Ecrabet\",\"status\":\"Livré\",\"DeliveryDate\":\"10-Juin\"},{\"task\":\"5280\",\"team\":\"ROOM\",\"subject\":\"LH-wording
+  sur les distances de POI\",\"CDPMOE\":\"Tovo A.\",\"status\":\"Livré\",\"DeliveryDate\":\"10-Juin\"},{\"task\":\"73845\",\"team\":\"SitesM\",\"subject\":\"[LINK]
+  FRONT : pages d'erreur\",\"CDPMOE\":\"Sandrine Bernard\",\"status\":\"A livrer\",\"DeliveryDate\":\"12-Juil\"},{\"task\":\"73889\",\"team\":\"ROOM\",\"subject\":\"service
+  à la carte - Lot 2\",\"CDPMOE\":\"Fatima S.\",\"status\":\"A livrer\",\"DeliveryDate\":\"15-Juil\"}]},\"id\":\"buzzwords\",\"updatedAt\":1500554771}\n\n"
+CriticalBugs: "data: {\"current\":2,\"last\":0,\"moreinfo\":\"Normal status\",\"id\":\"CriticalBugs\",\"updatedAt\":1518575183}\n\n"
+CentralMessage: "data: {\"title\":\"Release 17.06\",\"id\":\"CentralMessage\",\"updatedAt\":1500541112}\n\n"
+NRStatus: "data: {\"value\":30,\"id\":\"NRStatus\",\"updatedAt\":1501503758}\n\n"
+Tasks: "data: {\"items\":{\"items\":[{\"task\":\"ROOM-6605\",\"team\":\"API\",\"subject\":\"Adagio
+  Long Séjour\",\"CDPMOE\":\"Unkown\",\"status\":\"Livré\",\"DeliveryDate\":\"10-Juin\"},{\"task\":\"73885\",\"team\":\"SitesM\",\"subject\":\"[LoL]
+  MAJ Mentions legales Footer\",\"CDPMOE\":\"Cyrille Ecrabet\",\"status\":\"Livré\",\"DeliveryDate\":\"10-Juin\"},{\"task\":\"5280\",\"team\":\"ROOM\",\"subject\":\"LH-wording
+  sur les distances de POI\",\"CDPMOE\":\"Tovo A.\",\"status\":\"Livré\",\"DeliveryDate\":\"10-Juin\"},{\"task\":\"73845\",\"team\":\"SitesM\",\"subject\":\"[LINK]
+  FRONT : pages d'erreur\",\"CDPMOE\":\"Sandrine Bernard\",\"status\":\"A livrer\",\"DeliveryDate\":\"12-Juil\"},{\"task\":\"73889\",\"team\":\"ROOM\",\"subject\":\"service
+  à la carte - Lot 2\",\"CDPMOE\":\"Fatima S.\",\"status\":\"A livrer\",\"DeliveryDate\":\"15-Juil\"}]},\"id\":\"Tasks\",\"updatedAt\":1518575181}\n\n"
+tasksTable: "data: {\"itemss\":[{\"text\":\"The envs are down !!!!!!!!!!!!!!\"}],\"id\":\"tasksTable\",\"updatedAt\":1518575512}\n\n"
+slack-integration: "data: {\"items\":[{\"user\":\"U1J8L1N1F\",\"text\":\"@dashing-CriticalBugs
+  : 5\"}],\"id\":\"slack-integration\",\"updatedAt\":1500985674}\n\n"
+git: "data: {\"errormsg\":\"No API-Key specified!\",\"id\":\"git\",\"updatedAt\":1518575181}\n\n"
+Clock: "data: {\"errormsg\":\"ratelimited\",\"id\":\"Clock\",\"updatedAt\":1500988117}\n\n"
+mainFrame: "data: {\"items\":[{\"text\":\"U1J8L1N1F say : @dashing-CriticalBugs :
+  5\"}],\"id\":\"mainFrame\",\"updatedAt\":1500988244}\n\n"
+MainFrame: "data: {\"items\":[{\"text\":\"U1J8L1N1F say : @dashing-CriticalBugs :
+  5\"}],\"id\":\"MainFrame\",\"updatedAt\":1500989689}\n\n"
+RootFrame: "data: {\"errormsg\":\"ratelimited\",\"id\":\"RootFrame\",\"updatedAt\":1518575183}\n\n"
+RootFrameA: "data: {\"errormsg\":\"ratelimited\",\"id\":\"RootFrameA\",\"updatedAt\":1500991708}\n\n"
+Numbe: "data: {\"event\":\"reload\",\"id\":\"Numbe\",\"updatedAt\":1502877725}\n\n"
+Number: "data: {\"moreinfo\":\"dsdjs\",\"id\":\"Number\",\"updatedAt\":1517499112}\n\n"
+a_timeline: "data: {\"events\":[{\"name\":\"Start Release\",\"date\":\"Feb 5, 2018\",\"background\":\"lightblue\",\"opacity\":0.5},{\"name\":\"Release
+  End\",\"date\":\"Feb 22, 2018\",\"background\":\"red\"},{\"name\":\"Preprod Tests\",\"date\":\"Feb
+  24, 2018\",\"background\":\"Wite\"},{\"name\":\"GO / NOGO!\",\"date\":\"Feb 27,
+  2018\",\"background\":\"pink\"},{\"name\":\"Mise en Production!\",\"date\":\"Mar
+  5, 2018\",\"background\":\"Green\"},{\"name\":\"TODAY\",\"date\":\"Wed 14 Feb 2018\",\"background\":\"gold\"}],\"id\":\"a_timeline\",\"updatedAt\":1518575181}\n\n"
+1: "data: {\"project_logo_url\":null,\"project_name\":\"Accor\",\"project_load\":12,\"project_quality\":12,\"id\":1,\"updatedAt\":1504110041}\n\n"
+2: "data: {\"project_logo_url\":null,\"project_name\":\"Ibis\",\"project_load\":14,\"project_quality\":13,\"id\":2,\"updatedAt\":1504110041}\n\n"
+project-id: "data: {\"project_logo_url\":null,\"project_name\":\"IOS\",\"project_critical\":24,\"project_major\":33,\"project_minor\":1,\"id\":\"project-id\",\"updatedAt\":1518575514}\n\n"
+TotalBugs: "data: {\"current\":85,\"last\":70,\"moreinfo\":\"Normal status\",\"id\":\"TotalBugs\",\"updatedAt\":1518575183}\n\n"
+Meter: "data: {\"moreinfo\":\"dsdjs\",\"id\":\"Meter\",\"updatedAt\":1517499199}\n\n"
+>>>>>>> synchronise the locla repo

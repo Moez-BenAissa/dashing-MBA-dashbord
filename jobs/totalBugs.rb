@@ -9,5 +9,5 @@
 
 SCHEDULER.every '1s' do
 
-  send_event('CriticalBugs', { current: 2, last: 0, moreinfo: "Normal status"})
+  send_event('TotalBugs', { current: 85, last: 70, moreinfo: "Normal status"})
 end

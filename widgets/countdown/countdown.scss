@@ -9,10 +9,11 @@ $title-color:       #152338;
 .widget-countdown {
 
   background-color: $background-color;
+  
 
   .title, h2 {
     color: $title-color;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
   }
 
@@ -20,7 +21,7 @@ $title-color:       #152338;
 
   .countdown-time {
     margin-top: 10px;
-    color: #C70039;
+    color: red;
     font-weight: bold;
   }
 

@@ -13,6 +13,10 @@ gem 'dashing-contrib', '~> 0.2.2'
 
 
 gem 'google-api-client'
+<<<<<<< HEAD
+=======
+gem 'google-api-client', :require => 'google/apis'
+>>>>>>> synchronise the locla repo
 
 gem 'google_drive'
 

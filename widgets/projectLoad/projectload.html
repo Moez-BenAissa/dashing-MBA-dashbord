@@ -1,0 +1,21 @@
+<!-- Uncomment 'title' to use the project name instead of its logo -->
+
+<div class="first_block">
+  <h1 class="title" data-bind="project_name"></h1>
+  <!-- <img class="logo" data-bind-src="project_logo_url" data-bind-width="logowidth"/> -->
+</div>
+
+<div class="second_block">
+  <table>
+    <tr>
+      <th>Critical</th>
+      <th>Major</th>
+      <th>Minor</th>
+    </tr>
+    <tr>
+      <td class="critical"><input class="meter" data-angleOffset=-125 data-angleArc=250 data-bind-data-height="height | default 90" data-bind-data-width="width | default 90" data-readOnly=true data-bind-value="project_critical | shortenedNumber | prepend prefix | append suffix" data-bind-data-min="criticalmin" data-bind-data-max="criticalmax"></td>
+      <td class="major"><input class="meter" data-angleOffset=-125 data-angleArc=250 data-bind-data-height="height | default 90" data-bind-data-width="width | default 90" data-readOnly=true data-bind-value="project_major | shortenedNumber | prepend prefix | append suffix" data-bind-data-min="majormin" data-bind-data-max="majormax"></td>
+      <td class="minor"><input class="meter" data-angleOffset=-125 data-angleArc=250 data-bind-data-height="height | default 90" data-bind-data-width="width | default 90" data-readOnly=true data-bind-value="project_minor | shortenedNumber | prepend prefix | append suffix" data-bind-data-min="minormin" data-bind-data-max="minormax"></td>
+    </tr>
+  </table>
+</div>

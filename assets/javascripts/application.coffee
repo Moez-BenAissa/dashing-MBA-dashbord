@@ -4,8 +4,15 @@
 
 #= require_directory .
 #= require_tree ../../widgets
+<<<<<<< HEAD
 #=require dashing-contrib/assets/widgets
 console.log("Welcome to you in AccorHotles dashboard!")
+=======
+
+#=require dashing-contrib/assets/widgets
+
+console.log("Welcome to you in MBA-Dashboard dashboard!")
+>>>>>>> synchronise the locla repo
 
 Dashing.on 'ready', ->
   Dashing.widget_margins ||= [5, 5]

@@ -1,0 +1,106 @@
+// ----------------------------------------------------------------------------
+// Mixins
+// ----------------------------------------------------------------------------
+
+@mixin transition($transition-property, $transition-time, $method) {
+  -webkit-transition: $transition-property $transition-time $method;
+  -moz-transition: $transition-property $transition-time $method;
+  -o-transition: $transition-property $transition-time $method;
+  transition: $transition-property $transition-time $method;
+}
+
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+
+$background-color:  #00A4C0;
+$title-color:       #000;
+$value-color:       #fff;
+$meter-background:  darken($background-color, 15%);
+
+// ----------------------------------------------------------------------------
+// Widget-google-spreadsheet styles
+// ----------------------------------------------------------------------------
+
+.widget-projectload {
+
+  background-color: $background-color;
+  @include transition(background-color, 0.5s, linear);
+
+  .first_block {
+    height: 20%;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .second_block {
+    height: 80%;
+    width:  100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    color: $title-color;
+    font-weight: bold;
+    font-size: 32px;
+    align-items: center;
+    border: solid 1px;
+    border-color: #FFF;
+    border-radius: 45px;
+   width: 200px;
+  }
+
+  table {
+    table-layout: fixed;
+    // width: 90%
+  }
+
+  th {
+    color: $value-color;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 0 0 1px black;
+  }
+
+  td {
+    // width: 45%;
+    padding-top: 10px;
+    color: $value-color;
+    font-weight: bold;
+  }
+
+  input.meter {
+    // background-color: $meter-background;
+    color: #fff;
+  }
+  .critical{
+    background-color: red;
+    color: #fff;
+    border-radius: 25px;
+  }
+  .major{
+    background-color: orange;
+    color: #fff;
+    border-radius: 25px;
+  }
+  .minor{
+    background-color: green;
+    color: #fff;
+    border-radius: 25px;
+  }
+  .logo{
+    background-image: url("bug-mini.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.hotness0 { background-color: #1BA39C; }
+.hotness1 { background-color: #26A65B; }
+.hotness2 { background-color: #F5AB35; }
+.hotness3 { background-color: #F27935; }
+.hotness4 { background-color: #D91E18; }
